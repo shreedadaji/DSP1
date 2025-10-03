@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSP CYBER CAFE (DADAJI SMART POINT)</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <img src="images/hero.jpg" alt="Hero Banner">
+  <div class="hero-text">
+    <h1>DSP CYBER CAFE</h1>
+    <p>(DADAJI SMART POINT)</p>
+    <p>अब घर बैठे सभी सेवाएं, कम चार्ज में!</p>
+    <a href="https://wa.me/8234016821" class="whatsapp-button" id="whatsapp-sticky">WhatsApp से संपर्क करें</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#tabs" class="tablink" onclick="openTab(event, 'CyberServices')">Cyber Services</a>
+  <a href="#tabs" class="tablink" onclick="openTab(event, 'OnlineServices')">Online Services</a>
+  <a href="#tabs" class="tablink" onclick="openTab(event, 'OldPapers')">Old Papers</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="tabs">
+  <div id="CyberServices" class="tabcontent">
+    <h2>💫 INSTANT Cyber सेवाएं 💫</h2>
+    <div class="accordion">
+      <button class="accordion-button">आधार कार्ड से पैन नंबर तुरंत</button>
+      <div class="panel"><p>Step-by-step process info...</p></div>
+
+      <button class="accordion-button">आधार कार्ड से ड्राइविंग लाइसेंस नंबर तुरंत</button>
+      <div class="panel"><p>Step-by-step process info...</p></div>
+
+      <button class="accordion-button">गाड़ी नंबर से आरसी PDF तुरंत</button>
+      <div class="panel"><p>Step-by-step process info...</p></div>
+
+      <button class="accordion-button">वोटर कार्ड में मोबाइल नंबर लिंक तुरंत</button>
+      <div class="panel"><p>Step-by-step process info...</p></div>
+    </div>
+  </div>
+
+  <div id="OnlineServices" class="tabcontent" style="display:none;">
+    <h2>🌟 ऑनलाइन दस्तावेज़ सेवाएं 🌟</h2>
+    <div class="accordion">
+      <button class="accordion-button">आय प्रमाण पत्र</button>
+      <div class="panel"><p>Full detail info...</p></div>
+
+      <button class="accordion-button">पैन कार्ड</button>
+      <div class="panel"><p>Full detail info...</p></div>
+
+      <button class="accordion-button">ई-श्रम कार्ड</button>
+      <div class="panel"><p>Full detail info...</p></div>
+
+      <button class="accordion-button">समग्र भूमि KYC</button>
+      <div class="panel"><p>Full detail info...</p></div>
+    </div>
+  </div>
+
+  <div id="OldPapers" class="tabcontent" style="display:none;">
+    <h2>📚 पुरानी परीक्षा पेपर / PDFs (Paid Service) 💰</h2>
+    <input type="text" id="paperSearch" placeholder="Search papers..." onkeyup="filterPapers()">
+    <ul id="paperList">
+      <li>Previous Year Paper 1</li>
+      <li>Previous Year Paper 2</li>
+      <li>Previous Year Paper 3</li>
+      <li>Previous Year Paper 4</li>
+    </ul>
+    <p style="text-align:center;">इन पेपर्स के लिए संपर्क करें: <a href="https://wa.me/8234016821" class="whatsapp">8234016821</a></p>
+  </div>
+</section>
+
+<section id="faq">
+<h2>❓ FAQ</h2>
+<div class="accordion">
+  <button class="accordion-button">How to order services?</button>
+  <div class="panel"><p>Contact via WhatsApp and provide your details.</p></div>
+
+  <button class="accordion-button">Payment process?</button>
+  <div class="panel"><p>Payment through online transfer or cash at pickup.</p></div>
+</div>
+</section>
+
+<section id="testimonials">
+<h2>💬 Testimonials</h2>
+<div class="testimonial-card">
+  <p>"Excellent service, fast and reliable!" - User A</p>
+</div>
+<div class="testimonial-card">
+  <p>"Very helpful and easy to use." - User B</p>
+</div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 DSP CYBER CAFE. All rights reserved.
+</footer>
+
+</body>
+</html>
